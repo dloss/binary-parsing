@@ -1,7 +1,7 @@
 Parsing binary data
 ===================
 
-A list of generic tools for parsing binary data formats, such as
+A list of generic tools for parsing binary data structures, such as
 file formats, network protocols or bitstreams.
 
 ### Parsing libraries and frameworks
@@ -14,27 +14,27 @@ file formats, network protocols or bitstreams.
 -   [Construct](http://construct.readthedocs.org/) (Python): library for parsing
     and building of data structures (binary or textual). Define your
     data structures in a declarative manner
+-   [Nom](https://github.com/Geal/nom) (Rust): Rust parser combinator framework
+-   [Hammer](https://github.com/abiggerhammer/hammer) (C):
+    bit-oriented parsing library
 -   [Hachoir](https://bitbucket.org/haypo/hachoir/wiki/Home) (Python): view and
     edit a binary stream field by field
--   [DataScript Tools](http://dstools.sourceforge.net) (DSL):
-    DataScript is a formal language for modelling binary datatypes,
-    bitstreams or file formats.
-    [PDF](http://people.cs.vt.edu/~gback/papers/gback-datascript-gpce2002.pdf)
--   [Nom](https://github.com/Geal/nom) (Rust):
--   [Parsifal](https://github.com/ANSSI-FR/parsifal) (OCaml):
-    [PDF](http://spw14.langsec.org/papers/pasifal-report.pdf):
-    A pragmatic solution to the binary parsing problem. Olivier Levillain
 -   [Haka](http://www.haka-security.org) (Lua):
     open source security oriented language which allows to describe protocols
     and apply security policies on (live) captured traffic
 -   [Katai Struct](http://kaitai.io):
     declarative language used for describe various binary data structures,
     laid out in files or in memory
--   [Marpa](http://savage.net.au/Marpa.html):
+-   [DataScript Tools](http://dstools.sourceforge.net) (DSL):
+    DataScript is a formal language for modelling binary datatypes,
+    bitstreams or file formats.
+    [PDF](http://people.cs.vt.edu/~gback/papers/gback-datascript-gpce2002.pdf)
+-   [Parsifal](https://github.com/ANSSI-FR/parsifal) (OCaml):
+    OCaml-based parsing engine.
+    [Paper](http://spw14.langsec.org/papers/pasifal-report.pdf):
+    A pragmatic solution to the binary parsing problem. Olivier Levillain
+-   [Marpa](http://savage.net.au/Marpa.html) (C/C++, Perl, Go):
     [libmarpa](http://jeffreykegler.github.io/Marpa-web-site/libmarpa.html) (C)
-    https://jeffreykegler.github.io/Marpa-web-site/
--   [Hammer](https://github.com/abiggerhammer/hammer) (C):
-    bit-oriented parsing library
 -   [libtins](http://libtins.github.io/) (C++):
     crafting, sending, sniffing and interpreting raw network packets
 -   [libcrafter](https://github.com/pellegre/libcrafter) (C++):
@@ -44,9 +44,9 @@ file formats, network protocols or bitstreams.
 
 Hex editors with grammars
 
--   [Synalyze It!](https://www.synalysis.net):
--   [Hexinator](https://hexinator.com):
--   [010 Editor](http://www.sweetscape.com/010editor/):
+-   [Synalyze It!](https://www.synalysis.net)
+-   [Hexinator](https://hexinator.com)
+-   [010 Editor](http://www.sweetscape.com/010editor/)
 
 Network packet dissection and crafting
 
