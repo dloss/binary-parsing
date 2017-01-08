@@ -48,8 +48,6 @@ file formats, network protocols or bitstreams.
     crafting, sending, sniffing and interpreting raw network packets
 -   [libcrafter](https://github.com/pellegre/libcrafter) (C++):
     high level library for C++ designed to create and decode network packets
--   [radare2](https://github.com/radare/radare2) (C comes with bindings/pipe for almost all languages):
-    Unix-like reverse engineering framework and commandline tools see [Parsing a fileformat with radare2](http://radare.today/posts/parsing-a-fileformat-with-radare2/) and [Types](http://radare.today/posts/types/)
 
 ### Stand-alone software
 
@@ -82,6 +80,10 @@ file formats, network protocols or bitstreams.
     traffic generation and fuzzing of communication protocols
 -   [Cat Karat Packet Builder](http://packetbuilder.net):
     packet generation tool that allows to build custom packets for firewall or target testing
+-   [radare2](https://github.com/radare/radare2) (C, with bindings/pipe for almost all languages):
+    Unix-like reverse engineering framework and commandline tools. 
+    See [Parsing a fileformat with radare2](http://radare.today/posts/parsing-a-fileformat-with-radare2/) 
+    and [Types](http://radare.today/posts/types/).
 
 ### Research papers
 
