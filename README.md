@@ -16,8 +16,8 @@ file formats, network protocols or bitstreams.
     laid out in files or in memory
 -   [Hachoir](https://bitbucket.org/haypo/hachoir/wiki/Home) (Python): view and
     edit a binary stream field by field
--   [Construct](http://construct.readthedocs.org/) 
-    and [Construct 3](http://tomerfiliba.com/blog/Survey-of-Construct3/) (Python): 
+-   [Construct](http://construct.readthedocs.org/)
+    and [Construct 3](http://tomerfiliba.com/blog/Survey-of-Construct3/) (Python):
     library for parsing
     and building of data structures (binary or textual). Define your
     data structures in a declarative manner
@@ -63,11 +63,11 @@ file formats, network protocols or bitstreams.
     that includes [dissectors](https://www.wireshark.org/docs/wsdg_html_chunked/ChDissectAdd.html)
     for over [two thousand](https://www.wireshark.org/docs/dfref/) protocols.
 
--   [TShark](https://www.wireshark.org/docs/man-pages/tshark.html): 
+-   [TShark](https://www.wireshark.org/docs/man-pages/tshark.html):
     command line version, can easily be called from shell scripts.
 -   [Wireshark Generic Dissector](http://wsgd.free.fr/index.html):
     add-on, allows dissection of a protocol based on a text description of the protocol elements
--   [Wireshark Lua](https://wiki.wireshark.org/Lua): 
+-   [Wireshark Lua](https://wiki.wireshark.org/Lua):
     dissectors can be written in Lua ([Examples](https://wiki.wireshark.org/Lua/Examples))
 -   [pyreshark](https://github.com/ashdnazg/pyreshark):
     plugin providing a simple interface for writing Wireshark dissectors in Python
@@ -81,8 +81,8 @@ file formats, network protocols or bitstreams.
 -   [Cat Karat Packet Builder](http://packetbuilder.net):
     packet generation tool that allows to build custom packets for firewall or target testing
 -   [radare2](https://github.com/radare/radare2) (C, with bindings/pipe for almost all languages):
-    Unix-like reverse engineering framework and commandline tools. 
-    See [Parsing a fileformat with radare2](http://radare.today/posts/parsing-a-fileformat-with-radare2/) 
+    Unix-like reverse engineering framework and commandline tools.
+    See [Parsing a fileformat with radare2](http://radare.today/posts/parsing-a-fileformat-with-radare2/)
     and [Types](http://radare.today/posts/types/).
 
 ### Research papers
@@ -127,6 +127,9 @@ This is obviously rather subjective and definitely not supposed to be a complete
 -   [Nom example parsers](https://github.com/Geal/nom/issues/14)
 -   [Corkami posters](https://github.com/corkami/pics/tree/master/binary) for file formats
 -   [Katai format gallery](http://kaitai.io/#format-gallery)
+-   Scapy protocols: [layers](https://github.com/secdev/scapy/tree/master/scapy/layers),
+    [contrib](https://github.com/secdev/scapy/tree/master/scapy/contrib)
+-   [Wikipedia List of file formats](https://en.wikipedia.org/wiki/List_of_file_formats)
 
 ### Related topics
 
@@ -136,7 +139,7 @@ This is obviously rather subjective and definitely not supposed to be a complete
     http://forensicswiki.org/wiki/File_Format_Identification,
     https://github.com/USArmyResearchLab/Dshell
 -   Deep Packet Inspection
--   [Packet Crafting](https://en.wikipedia.org/wiki/Packet_crafting): 
+-   [Packet Crafting](https://en.wikipedia.org/wiki/Packet_crafting):
     hping2/3, tcpreplay, netdude, bittwist, netsniff-ng, Trafgen, ...
 -   Reverse Engineering
 -   Fuzzing: Sulley, Peach, ...
