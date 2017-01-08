@@ -4,27 +4,24 @@ Parsing binary data
 A list of generic tools for parsing binary data structures, such as
 file formats, network protocols or bitstreams.
 
-### Parsing libraries and frameworks
+### Parser generators, parsing libraries and frameworks
 
--   [Spicy](http://www.icir.org/hilti/) (DSL, C/C++):
+-   [Spicy](http://www.icir.org/hilti/) (DSL, C/C++, Bro):
     a next-generation parser generator for network protocols and file formats
     and forge network packets
--   [Scapy](http://secdev.org/projects/scapy) (Python): send, sniff and dissect
-    and forge network packets. Usable interactively or as a library
--   [Construct](http://construct.readthedocs.org/) (Python): library for parsing
-    and building of data structures (binary or textual). Define your
-    data structures in a declarative manner
 -   [Nom](https://github.com/Geal/nom) (Rust): Rust parser combinator framework
 -   [Hammer](https://github.com/abiggerhammer/hammer) (C):
     bit-oriented parsing library
--   [Hachoir](https://bitbucket.org/haypo/hachoir/wiki/Home) (Python): view and
-    edit a binary stream field by field
--   [Haka](http://www.haka-security.org) (Lua):
-    open source security oriented language which allows to describe protocols
-    and apply security policies on (live) captured traffic
--   [Katai Struct](http://kaitai.io):
+-   [Katai Struct](http://kaitai.io) (DSL):
     declarative language used for describe various binary data structures,
     laid out in files or in memory
+-   [Hachoir](https://bitbucket.org/haypo/hachoir/wiki/Home) (Python): view and
+    edit a binary stream field by field
+-   [Construct](http://construct.readthedocs.org/) 
+    and [Construct 3](http://tomerfiliba.com/blog/Survey-of-Construct3/) (Python): 
+    library for parsing
+    and building of data structures (binary or textual). Define your
+    data structures in a declarative manner
 -   [DataScript Tools](http://dstools.sourceforge.net) (DSL):
     DataScript is a formal language for modelling binary datatypes,
     bitstreams or file formats.
@@ -33,8 +30,21 @@ file formats, network protocols or bitstreams.
     OCaml-based parsing engine.
     [Paper](http://spw14.langsec.org/papers/pasifal-report.pdf):
     A pragmatic solution to the binary parsing problem. Olivier Levillain
+-   [Haka](http://www.haka-security.org) (Lua):
+    open source security oriented language which allows to describe protocols
+    and apply security policies on (live) captured traffic
+-   [BinData](https://github.com/dmendel/bindata) (Ruby):
+    provides a declarative way to read and write structured binary data
+-   [Binary-parser](https://github.com/keichi/binary-parser) (Node):
+    binary parser builder library for node, which enables you to write
+    efficient parsers in a simple & declarative way
+-   [attoparsec](http://hackage.haskell.org/package/attoparsec) and [attoparsec-binary](https://hackage.haskell.org/package/attoparsec-binary): (Haskell):
+    fast parser combinator library, aimed particularly at dealing efficiently
+    with network protocols and complicated text/binary file formats
 -   [Marpa](http://savage.net.au/Marpa.html) (C/C++, Perl, Go):
     [libmarpa](http://jeffreykegler.github.io/Marpa-web-site/libmarpa.html) (C)
+-   [Scapy](http://secdev.org/projects/scapy) (Python): send, sniff and dissect
+    and forge network packets. Usable interactively or as a library
 -   [libtins](http://libtins.github.io/) (C++):
     crafting, sending, sniffing and interpreting raw network packets
 -   [libcrafter](https://github.com/pellegre/libcrafter) (C++):
@@ -42,20 +52,35 @@ file formats, network protocols or bitstreams.
 
 ### Stand-alone software
 
-Hex editors with grammars
+##### Hex editors with grammars
 
 -   [Synalyze It!](https://www.synalysis.net)
 -   [Hexinator](https://hexinator.com)
 -   [010 Editor](http://www.sweetscape.com/010editor/)
 
-Network packet dissection and crafting
+##### Wireshark
+
+[Wireshark](https://www.wireshark.org) is a network protocol analyzer
+    that includes [dissectors](https://www.wireshark.org/docs/wsdg_html_chunked/ChDissectAdd.html)
+    for over [two thousand](https://www.wireshark.org/docs/dfref/) protocols.
+
+-   [TShark](https://www.wireshark.org/docs/man-pages/tshark.html): 
+    command line version, can easily be called from shell scripts.
+-   [Wireshark Generic Dissector](http://wsgd.free.fr/index.html):
+    add-on, allows dissection of a protocol based on a text description of the protocol elements
+-   [Wireshark Lua](https://wiki.wireshark.org/Lua): 
+    dissectors can be written in Lua ([Examples](https://wiki.wireshark.org/Lua/Examples))
+-   [pyreshark](https://github.com/ashdnazg/pyreshark):
+    plugin providing a simple interface for writing Wireshark dissectors in Python
+-   [Sharktools](https://github.com/armenb/sharktools) (Python, Matlab):
+    Tools for programmatic parsing of packet captures using Wireshark functionality
+
+##### Other Stand-alone Software
 
 -   [Netzob](http://www.netzob.org): open source tool for reverse engineering,
     traffic generation and fuzzing of communication protocols
--   [Wireshark Generic Dissector](http://wsgd.free.fr/index.html) (Wireshark)
 -   [Cat Karat Packet Builder](http://packetbuilder.net):
--   [Sharktools](https://github.com/armenb/sharktools) (Python, Matlab)
--   [Wireshark Tools](https://wiki.wireshark.org/Tools)
+    packet generation tool that allows to build custom packets for firewall or target testing
 
 ### Research papers
 
@@ -77,7 +102,7 @@ Network packet dissection and crafting
 -   Yakker: Semantics and Algorithms for Data-dependent Grammars.
     Trevor Jim, Yitzhak Mandelbaum, David Walker
 -   [BinPAC](http://www.icsi.berkeley.edu/pubs/networking/binpacIMC06.pdf):
-    Superseded by BinPAC++, now known as Spicy
+    Superseded by BinPAC++, which is now known as [Spicy](http://www.icir.org/hilti/)
 -   FlowSifter:
     High-Speed Application Protocol Parsing and Extraction for Deep Flow Inspection.
     Alex X. Liu, Chad R. Meiners, Eric Norige, and Eric Torng
@@ -92,6 +117,14 @@ Network packet dissection and crafting
     Grammar-Based Specification and Parsing of Binary File Formats.
     William Underwood
 
+### Lists of interesting binary formats
+
+This is obviously rather subjective and definitely not supposed to be a complete list:
+
+-   [Nom example parsers](https://github.com/Geal/nom/issues/14)
+-   [Corkami posters](https://github.com/corkami/pics/tree/master/binary) for file formats
+-   [Katai format gallery](http://kaitai.io/#format-gallery)
+
 ### Related topics
 
 -   Compilers
@@ -100,15 +133,9 @@ Network packet dissection and crafting
     http://forensicswiki.org/wiki/File_Format_Identification,
     https://github.com/USArmyResearchLab/Dshell
 -   Deep Packet Inspection
--   Packet Crafting: hping2/3, tcpreplay, netdude, bittwist, netsniff-ng, Trafgen, ...
+-   [Packet Crafting](https://en.wikipedia.org/wiki/Packet_crafting): 
+    hping2/3, tcpreplay, netdude, bittwist, netsniff-ng, Trafgen, ...
 -   Reverse Engineering
 -   Fuzzing: Sulley, Peach, ...
 -   Language-theoretic Security ([LANGSEC](http://langsec.org))
 
-### Interesting binary formats
-
-This is obviously rather subjective and definitely not supposed to be a complete list:
-
--   https://github.com/Geal/nom/issues/14
--   https://github.com/corkami/pics
--   http://kaitai.io/#format-gallery
