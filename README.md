@@ -8,7 +8,6 @@ file formats, network protocols or bitstreams.
 
 -   [Spicy](http://www.icir.org/hilti/) (DSL, C/C++, Bro):
     a next-generation parser generator for network protocols and file formats
-    and forge network packets
 -   [Nom](https://github.com/Geal/nom) (Rust): Rust parser combinator framework
 -   [Hammer](https://github.com/abiggerhammer/hammer) (C):
     bit-oriented parsing library
