@@ -37,6 +37,9 @@ file formats, network protocols or bitstreams.
 -   [Binary-parser](https://github.com/keichi/binary-parser) (Node):
     binary parser builder library for node, which enables you to write
     efficient parsers in a simple & declarative way
+-   [Gloss](https://github.com/ztellman/gloss) (Closure):
+    turn complicated byte formats into Clojure data structures and
+    Clojure data structures into compact byte representations
 -   [attoparsec](http://hackage.haskell.org/package/attoparsec) and [attoparsec-binary](https://hackage.haskell.org/package/attoparsec-binary): (Haskell):
     fast parser combinator library, aimed particularly at dealing efficiently
     with network protocols and complicated text/binary file formats
