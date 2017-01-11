@@ -141,14 +141,15 @@ This is obviously rather subjective and definitely not supposed to be a complete
 ### Related topics
 
 -   Compilers
--   Domain Specific Languages
--   Digital Forensics, Network Forensics:
-    http://forensicswiki.org/wiki/File_Format_Identification,
-    https://github.com/USArmyResearchLab/Dshell
+-   [Domain Specific Languages](https://en.wikipedia.org/wiki/Domain-specific_language)
+-   Digital Forensics, Network Forensics: 
+    [file format identification](http://forensicswiki.org/wiki/File_Format_Identification),
+    [dshell](https://github.com/USArmyResearchLab/Dshell)
 -   Deep Packet Inspection
 -   [Packet Crafting](https://en.wikipedia.org/wiki/Packet_crafting):
     hping2/3, tcpreplay, netdude, bittwist, netsniff-ng, Trafgen, ...
 -   Reverse Engineering
--   Fuzzing: Sulley, Peach, ...
+-   Fuzzing: [Sulley](https://github.com/OpenRCE/sulley), [Peach](http://www.peachfuzzer.com/resources/peachcommunity/), ...
 -   Language-theoretic Security ([LANGSEC](http://langsec.org))
+-   [Chomsky hierarchy](https://en.wikipedia.org/wiki/Chomsky_hierarchy)
 
