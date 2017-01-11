@@ -93,8 +93,9 @@ file formats, network protocols or bitstreams.
 -   [Nail](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-bangert.pdf):
     A Practical Tool for Parsing and Generating Data Formats.
     Julian Bangert and Nickolai Zeldovich,
--   GAPA: A Generic Application-Level Protocol Analyzer and its Language
--   PADS/ML: a functional data description language.
+-   [GAPA](https://www.microsoft.com/en-us/research/publication/generic-application-level-protocol-analyzer-and-its-language/): Generic Application-Level Protocol Analyzer and its Language.
+    Nikita Borisov, David J. Brumley, Helen J. Wang, Chuanxiong Guo
+-   [PADS/ML](http://dl.acm.org/citation.cfm?id=1190231): a functional data description language.
     Y. Mandelbaum, K. Fisher, D. Walker, M. F. Fernandez, and A. Gleyzer.
 -   [PacketTypes](): P. J. McCann and S. Chandra.
     Packet types: Abstract specification of network protocol messages.
@@ -104,12 +105,15 @@ file formats, network protocols or bitstreams.
 -   [Zebra](https://hal.archives-ouvertes.fr/hal-00806727/document):
     Improving the Performance of Message Parsers for Embedded Systems.
     Jigar Solanki et. al.
--   [z2z](https://pages.lip6.fr/Julia.Lawall/middleware09.pdf)
--   Yakker: Semantics and Algorithms for Data-dependent Grammars.
+-   [z2z](https://pages.lip6.fr/Julia.Lawall/middleware09.pdf): 
+    Automatic Generation of Network Protocol Gateways.
+    Yerom-David Bromberg, Laurent Reveillere, Julia L. Lawall, Gilles Muller
+-   [Yakker](http://dl.acm.org/citation.cfm?doid=1706299.1706347): 
+    Semantics and Algorithms for Data-dependent Grammars.
     Trevor Jim, Yitzhak Mandelbaum, David Walker
 -   [BinPAC](http://www.icsi.berkeley.edu/pubs/networking/binpacIMC06.pdf):
     Superseded by BinPAC++, which is now known as [Spicy](http://www.icir.org/hilti/)
--   FlowSifter:
+-   [FlowSifter](http://ieeexplore.ieee.org/document/6902774/):
     High-Speed Application Protocol Parsing and Extraction for Deep Flow Inspection.
     Alex X. Liu, Chad R. Meiners, Eric Norige, and Eric Torng
 -   [TSN.1](http://www.protomatics.com/tsn1.html):
