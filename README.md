@@ -15,7 +15,7 @@ file formats, network protocols or bitstreams.
     declarative language used for describe various binary data structures,
     laid out in files or in memory
 -   [Hachoir](http://hachoir3.readthedocs.io) (Python): view and
-    edit a binary stream field by field. 
+    edit a binary stream field by field.
     Long [list of parsers](http://hachoir3.readthedocs.io/parser_list.html) for all kinds of formats
 -   [Construct](http://construct.readthedocs.org/)
     and [Construct 3](http://tomerfiliba.com/blog/Survey-of-Construct3/) (Python):
@@ -106,10 +106,10 @@ file formats, network protocols or bitstreams.
 -   [Zebra](https://hal.archives-ouvertes.fr/hal-00806727/document):
     Improving the Performance of Message Parsers for Embedded Systems.
     Jigar Solanki et. al.
--   [z2z](https://pages.lip6.fr/Julia.Lawall/middleware09.pdf): 
+-   [z2z](https://pages.lip6.fr/Julia.Lawall/middleware09.pdf):
     Automatic Generation of Network Protocol Gateways.
     Yerom-David Bromberg, Laurent Reveillere, Julia L. Lawall, Gilles Muller
--   [Yakker](http://dl.acm.org/citation.cfm?doid=1706299.1706347): 
+-   [Yakker](http://dl.acm.org/citation.cfm?doid=1706299.1706347):
     Semantics and Algorithms for Data-dependent Grammars.
     Trevor Jim, Yitzhak Mandelbaum, David Walker
 -   [BinPAC](http://www.icsi.berkeley.edu/pubs/networking/binpacIMC06.pdf):
@@ -145,7 +145,7 @@ This is obviously rather subjective and definitely not supposed to be a complete
 
 -   Compilers
 -   [Domain Specific Languages](https://en.wikipedia.org/wiki/Domain-specific_language)
--   Digital Forensics, Network Forensics: 
+-   Digital Forensics, Network Forensics:
     [file format identification](http://forensicswiki.org/wiki/File_Format_Identification),
     [dshell](https://github.com/USArmyResearchLab/Dshell)
 -   Deep Packet Inspection
