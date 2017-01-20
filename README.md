@@ -14,8 +14,9 @@ file formats, network protocols or bitstreams.
 -   [Katai Struct](http://kaitai.io) (DSL):
     declarative language used for describe various binary data structures,
     laid out in files or in memory
--   [Hachoir](https://bitbucket.org/haypo/hachoir/wiki/Home) (Python): view and
-    edit a binary stream field by field
+-   [Hachoir](http://hachoir3.readthedocs.io) (Python): view and
+    edit a binary stream field by field. 
+    Long [list of parsers](http://hachoir3.readthedocs.io/parser_list.html) for all kinds of formats
 -   [Construct](http://construct.readthedocs.org/)
     and [Construct 3](http://tomerfiliba.com/blog/Survey-of-Construct3/) (Python):
     library for parsing
@@ -131,6 +132,8 @@ file formats, network protocols or bitstreams.
 
 This is obviously rather subjective and definitely not supposed to be a complete list:
 
+-   [Hachoir parser list](http://hachoir3.readthedocs.io/parser_list.html)
+    and [source code](https://github.com/haypo/hachoir3/tree/master/hachoir/parser)
 -   [Nom example parsers](https://github.com/Geal/nom/issues/14)
 -   [Corkami posters](https://github.com/corkami/pics/tree/master/binary) for file formats
 -   [Katai format gallery](http://kaitai.io/#format-gallery)
