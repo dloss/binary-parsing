@@ -134,6 +134,7 @@ This is obviously rather subjective and definitely not supposed to be a complete
 
 -   [Hachoir parser list](http://hachoir3.readthedocs.io/parser_list.html)
     and [source code](https://github.com/haypo/hachoir3/tree/master/hachoir/parser)
+-   [Synalyze It! Grammar Page](https://www.synalysis.net/formats.xml)
 -   [Nom example parsers](https://github.com/Geal/nom/issues/14)
 -   [Corkami posters](https://github.com/corkami/pics/tree/master/binary) for file formats
 -   [Katai format gallery](http://kaitai.io/#format-gallery)
