@@ -137,7 +137,7 @@ This is obviously rather subjective and definitely not supposed to be a complete
 -   [Synalyze It! Grammar Page](https://www.synalysis.net/formats.xml)
 -   [Nom example parsers](https://github.com/Geal/nom/issues/14)
 -   [Corkami posters](https://github.com/corkami/pics/tree/master/binary) for file formats
--   [Katai format gallery](http://kaitai.io/#format-gallery)
+-   [Kaitai Struct format library](https://github.com/kaitai-io/kaitai_struct_formats)
 -   Scapy protocols: [layers](https://github.com/secdev/scapy/tree/master/scapy/layers),
     [contrib](https://github.com/secdev/scapy/tree/master/scapy/contrib)
 -   [Wikipedia List of file formats](https://en.wikipedia.org/wiki/List_of_file_formats)
