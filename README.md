@@ -41,6 +41,8 @@ file formats, network protocols or bitstreams.
 -   [Gloss](https://github.com/ztellman/gloss) (Closure):
     turn complicated byte formats into Clojure data structures and
     Clojure data structures into compact byte representations
+-   [Preon](https://github.com/preon/preon) (Java): 
+    Bit syntax for Java. A declarative data binding framework for dealing with binary encoded data
 -   [attoparsec](http://hackage.haskell.org/package/attoparsec) and [attoparsec-binary](https://hackage.haskell.org/package/attoparsec-binary): (Haskell):
     fast parser combinator library, aimed particularly at dealing efficiently
     with network protocols and complicated text/binary file formats
