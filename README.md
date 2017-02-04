@@ -11,7 +11,7 @@ file formats, network protocols or bitstreams.
 -   [Nom](https://github.com/Geal/nom) (Rust): Rust parser combinator framework
 -   [Hammer](https://github.com/abiggerhammer/hammer) (C):
     bit-oriented parsing library
--   [Katai Struct](http://kaitai.io) (DSL):
+-   [Kaitai Struct](http://kaitai.io) (DSL):
     declarative language used for describe various binary data structures,
     laid out in files or in memory
 -   [Hachoir](http://hachoir3.readthedocs.io) (Python): view and
