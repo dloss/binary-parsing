@@ -100,7 +100,7 @@ file formats, network protocols or bitstreams.
     Nikita Borisov, David J. Brumley, Helen J. Wang, Chuanxiong Guo
 -   [PADS/ML](http://dl.acm.org/citation.cfm?id=1190231): a functional data description language.
     Y. Mandelbaum, K. Fisher, D. Walker, M. F. Fernandez, and A. Gleyzer.
--   [PacketTypes](): P. J. McCann and S. Chandra.
+-   [PacketTypes](http://conferences.sigcomm.org/sigcomm/2000/conf/paper/sigcomm2000-9-2.pdf): P. J. McCann and S. Chandra.
     Packet types: Abstract specification of network protocol messages.
 -   [Zebu](https://hal.inria.fr/inria-00350019/file/srds07.pdf):
     A Language-Based Approach for Improving the Robustness of Network
