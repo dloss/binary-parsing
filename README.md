@@ -54,6 +54,8 @@ file formats, network protocols or bitstreams.
     crafting, sending, sniffing and interpreting raw network packets
 -   [libcrafter](https://github.com/pellegre/libcrafter) (C++):
     high level library for C++ designed to create and decode network packets
+-   [scodec](http://scodec.org/) (Scala):
+    Combinator library for working with binary data
 
 ### Stand-alone software
 
