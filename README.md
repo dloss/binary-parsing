@@ -56,6 +56,10 @@ file formats, network protocols or bitstreams.
     high level library for C++ designed to create and decode network packets
 -   [scodec](http://scodec.org/) (Scala):
     Combinator library for working with binary data
+-   [binaryparse](https://github.com/PMunch/binaryparse) (Nim, DSL):
+    In-language DSL for reading and writing binary data supporting all sorts ofi
+    patterns. Generates an efficient stream based reader and writer for the
+    runtime execution.
 
 ### Stand-alone software
 
