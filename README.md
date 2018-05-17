@@ -6,15 +6,6 @@ file formats, network protocols or bitstreams.
 
 ### Parser generators, parsing libraries and frameworks
 
--   [Daffodil](http://daffodil.apache.org) (Scala/Java):
-    an open-source implementation of
-    [DFDL (Data Format Description Language)](https://en.wikipedia.org/wiki/Data_Format_Description_Language)
-    which is capable of describing many data formats, including both textual and binary,
-    and [many industry and military standards](https://github.com/DFDLSchemas).
-    DFDL is a subset of W3C XML schema, used describe the logical format of the data,
-    and annotations within the schema to describe the physical representation.
-    Daffodil uses these DFDL schemas to parse fixed format data into an infoset, which is most
-    commonly represented as either XML or JSON.  
 -   [Spicy](http://www.icir.org/hilti/) (DSL, C/C++, Bro):
     a next-generation parser generator for network protocols and file formats
 -   [Nom](https://github.com/Geal/nom) (Rust): Rust parser combinator framework
@@ -65,6 +56,11 @@ file formats, network protocols or bitstreams.
     high level library for C++ designed to create and decode network packets
 -   [scodec](http://scodec.org/) (Scala):
     Combinator library for working with binary data
+-   [Daffodil](http://daffodil.apache.org) (Scala/Java, XML Schema):
+    an open-source implementation of
+    [DFDL (Data Format Description Language)](https://en.wikipedia.org/wiki/Data_Format_Description_Language)
+    capable of describing [many industry and military standards](https://github.com/DFDLSchemas) and
+    parsing into a infoset, which is most commonly represented as either XML or JSON, and writing back to native format.
 -   [binaryparse](https://github.com/PMunch/binaryparse) (Nim, DSL):
     In-language DSL for reading and writing binary data supporting all sorts of
     patterns. Generates an efficient stream based reader and writer for the
