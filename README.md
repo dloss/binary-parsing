@@ -66,6 +66,16 @@ file formats, network protocols or bitstreams.
     patterns. Generates an efficient stream based reader and writer for the
     runtime execution.
 
+#### Generators suitable for resource-constrained embedded systems (low-end microcontrollers with few Kb of RAM)
+
+-   [ragel](http://www.colm.net/open-source/ragel/) (embedded C, C++, Java, Go, Ruby, C#):
+    Ragel compiles executable finite state machines from regular languages. 
+    Ragel state machines can not only recognize byte sequences as regular 
+    expression machines do, but can also **execute code at arbitrary points
+    while the recognition process goes**. The key feature is a very compact
+    and human-readable *embedded C* code does not consume any buffers
+    and don't use external libraries.
+
 ### Stand-alone software
 
 ##### Hex editors with grammars
