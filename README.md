@@ -74,7 +74,13 @@ file formats, network protocols or bitstreams.
     expression machines do, but can also *execute code at arbitrary points
     while the recognition process goes*. The key feature is a very compact
     and human-readable *embedded C* code does not consume any buffers
-    and don't use external libraries.
+    and don't use external libraries. Has *FSM plotting for code documentation*.
+-   [re2c](http://re2c.org) (embedded C):
+    re2c is a free and open-source lexer generator for C and C++.
+    Its main goal is generating fast and compact embeddable lexers.
+    Instead of using traditional table-driven approach, re2c encodes the
+    generated finite state automata directly in the form of conditional
+    jumps and comparisons. Generated code does not use OS/libc buffering and I/O.
 
 ### Stand-alone software
 
