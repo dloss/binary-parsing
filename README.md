@@ -71,8 +71,8 @@ file formats, network protocols or bitstreams.
 -   [ragel](http://www.colm.net/open-source/ragel/) (embedded C, C++, Java, Go, Ruby, C#):
     Ragel compiles executable finite state machines from regular languages. 
     Ragel state machines can not only recognize byte sequences as regular 
-    expression machines do, but can also **execute code at arbitrary points
-    while the recognition process goes**. The key feature is a very compact
+    expression machines do, but can also *execute code at arbitrary points
+    while the recognition process goes*. The key feature is a very compact
     and human-readable *embedded C* code does not consume any buffers
     and don't use external libraries.
 
