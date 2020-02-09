@@ -22,6 +22,7 @@ file formats, network protocols or bitstreams.
     library for parsing
     and building of data structures (binary or textual). Define your
     data structures in a declarative manner
+-   [RecordFlux](https://github.com/Componolit/RecordFlux): toolset for the formal specification of messages and the generation of verifiable binary parsers and message generators (Ada-inspired).
 -   [DataScript Tools](http://dstools.sourceforge.net) (DSL):
     DataScript is a formal language for modelling binary datatypes,
     bitstreams or file formats.
