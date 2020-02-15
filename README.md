@@ -18,7 +18,7 @@ file formats, network protocols or bitstreams.
     data structures in a declarative manner
 -   [Spicy](http://www.icir.org/hilti/) (DSL, C/C++, Bro):
     a next-generation parser generator for network protocols and file formats
--   [Hachoir](http://hachoir3.readthedocs.io) (Python): view and
+-   [Hachoir](http://hachoir.readthedocs.io) (Python): view and
     edit a binary stream field by field.
     Long [list of parsers](http://hachoir3.readthedocs.io/parser_list.html) for all kinds of formats
 -   [RecordFlux](https://github.com/Componolit/RecordFlux): toolset for the formal specification of messages and the generation of verifiable binary parsers and message generators (Ada-inspired).
