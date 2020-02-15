@@ -17,8 +17,7 @@ file formats, network protocols or bitstreams.
 -   [Hachoir](http://hachoir3.readthedocs.io) (Python): view and
     edit a binary stream field by field.
     Long [list of parsers](http://hachoir3.readthedocs.io/parser_list.html) for all kinds of formats
--   [Construct](http://construct.readthedocs.org/)
-    and [Construct 3](http://tomerfiliba.com/blog/Survey-of-Construct3/) (Python):
+-   [Construct](http://construct.readthedocs.org/) (Python):
     library for parsing
     and building of data structures (binary or textual). Define your
     data structures in a declarative manner
