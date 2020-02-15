@@ -6,21 +6,21 @@ file formats, network protocols or bitstreams.
 
 ### Parser generators, parsing libraries and frameworks
 
--   [Spicy](http://www.icir.org/hilti/) (DSL, C/C++, Bro):
-    a next-generation parser generator for network protocols and file formats
--   [Nom](https://github.com/Geal/nom) (Rust): Rust parser combinator framework
--   [Hammer](https://github.com/abiggerhammer/hammer) (C):
-    bit-oriented parsing library
 -   [Kaitai Struct](http://kaitai.io) (DSL):
     declarative language used for describe various binary data structures,
     laid out in files or in memory
--   [Hachoir](http://hachoir3.readthedocs.io) (Python): view and
-    edit a binary stream field by field.
-    Long [list of parsers](http://hachoir3.readthedocs.io/parser_list.html) for all kinds of formats
+-   [Nom](https://github.com/Geal/nom) (Rust): Rust parser combinator framework
+-   [Hammer](https://github.com/abiggerhammer/hammer) (C):
+    bit-oriented parsing library
 -   [Construct](http://construct.readthedocs.org/) (Python):
     library for parsing
     and building of data structures (binary or textual). Define your
     data structures in a declarative manner
+-   [Spicy](http://www.icir.org/hilti/) (DSL, C/C++, Bro):
+    a next-generation parser generator for network protocols and file formats
+-   [Hachoir](http://hachoir3.readthedocs.io) (Python): view and
+    edit a binary stream field by field.
+    Long [list of parsers](http://hachoir3.readthedocs.io/parser_list.html) for all kinds of formats
 -   [RecordFlux](https://github.com/Componolit/RecordFlux): toolset for the formal specification of messages and the generation of verifiable binary parsers and message generators (Ada-inspired).
 -   [DataScript Tools](http://dstools.sourceforge.net) (DSL):
     DataScript is a formal language for modelling binary datatypes,
