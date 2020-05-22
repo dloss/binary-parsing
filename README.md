@@ -73,6 +73,7 @@ file formats, network protocols or bitstreams.
 -   [Synalyze It!](https://www.synalysis.net)
 -   [Hexinator](https://hexinator.com)
 -   [010 Editor](http://www.sweetscape.com/010editor/)
+-   [Kiewtai](https://github.com/taviso/kiewtai): plugin for the Hiew hex editor that makes the Kaitai parsers available
 
 ##### Wireshark
 
