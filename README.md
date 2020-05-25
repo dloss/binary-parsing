@@ -1,5 +1,5 @@
-Parsing binary data
-===================
+Awesome binary parsing
+======================
 
 A list of generic tools for parsing binary data structures, such as
 file formats, network protocols or bitstreams.
