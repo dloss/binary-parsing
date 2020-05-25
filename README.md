@@ -103,6 +103,7 @@ file formats, network protocols or bitstreams.
     Unix-like reverse engineering framework and commandline tools.
     See [Parsing a fileformat with radare2](http://radare.today/posts/parsing-a-fileformat-with-radare2/)
     and [Types](http://radare.today/posts/types/).
+-   [Veles](https://codisec.com/veles/): open source tool for binary analysis
 
 ### Research papers
 
