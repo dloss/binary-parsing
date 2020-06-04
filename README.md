@@ -107,6 +107,8 @@ file formats, network protocols or bitstreams.
 
 ### Research papers
 
+-   [EverParse](https://www.chajed.io/papers/everparse:usenix-sec2019.pdf): 
+    Verified Secure Zero-Copy Parsers for Authenticated Message Formats. Tahina Ramananandro et. al.
 -   [Nail](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-bangert.pdf):
     A Practical Tool for Parsing and Generating Data Formats.
     Julian Bangert and Nickolai Zeldovich,
