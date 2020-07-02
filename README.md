@@ -16,7 +16,7 @@ file formats, network protocols or bitstreams.
     library for parsing
     and building of data structures (binary or textual). Define your
     data structures in a declarative manner
--   [Spicy](https://github.com/zeek/spicy) (DSL, C/C++, Bro):
+-   [Spicy](https://github.com/zeek/spicy) (DSL, C/C++, Zeek):
     a next-generation parser generator for network protocols and file formats
 -   [Hachoir](http://hachoir.readthedocs.io) (Python): view and
     edit a binary stream field by field.
