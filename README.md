@@ -151,8 +151,8 @@ file formats, network protocols or bitstreams.
 
 This is obviously rather subjective and definitely not supposed to be a complete list:
 
--   [Hachoir parser list](http://hachoir3.readthedocs.io/parser_list.html)
-    and [source code](https://github.com/haypo/hachoir3/tree/master/hachoir/parser)
+-   [Hachoir parser list](https://hachoir.readthedocs.io/en/latest/parser.html#parser-list)
+    and [source code](https://github.com/vstinner/hachoir/tree/master/hachoir/parser)
 -   [Synalyze It! Grammar Page](https://www.synalysis.net/formats.xml)
 -   [Nom example parsers](https://github.com/Geal/nom/issues/14)
 -   [Corkami posters](https://github.com/corkami/pics/tree/master/binary) for file formats
