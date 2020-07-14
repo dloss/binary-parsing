@@ -65,6 +65,7 @@ file formats, network protocols or bitstreams.
     In-language DSL for reading and writing binary data supporting all sorts of
     patterns. Generates an efficient stream based reader and writer for the
     runtime execution.
+-   [FlexT](http://hmelnov.icc.ru/FlexT/index.eng.html) - a DSL and a tool for generating parsers in Delphi.
 
 ### Stand-alone software
 
@@ -156,6 +157,7 @@ This is obviously rather subjective and definitely not supposed to be a complete
 -   [Nom example parsers](https://github.com/Geal/nom/issues/14)
 -   [Corkami posters](https://github.com/corkami/pics/tree/master/binary) for file formats
 -   [Kaitai Struct format library](https://github.com/kaitai-io/kaitai_struct_formats)
+-   [Catalog of FlexT format specifications](http://hmelnov.icc.ru/geos/scripts/WWWBinV.dll/Cat). [A scraper for them](https://github.com/kaitai-io/kaitai_struct/issues/292). In a e-mail conversation the author of the tool has claimed that the grammars are available under a MIT license. A CoCo/R-like grammar for the DSL also exists, but is in a bit unfinished state.
 -   Scapy protocols: [layers](https://github.com/secdev/scapy/tree/master/scapy/layers),
     [contrib](https://github.com/secdev/scapy/tree/master/scapy/contrib)
 -   [Wikipedia List of file formats](https://en.wikipedia.org/wiki/List_of_file_formats)
