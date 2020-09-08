@@ -66,6 +66,7 @@ file formats, network protocols or bitstreams.
     patterns. Generates an efficient stream based reader and writer for the
     runtime execution.
 -   [FlexT](http://hmelnov.icc.ru/FlexT/index.eng.html) - a DSL and a tool for generating parsers in Delphi.
+-   [FormatFuzzer](https://uds-se.github.io/FormatFuzzer/) (C++): framework for high-efficiency, high-quality generation and parsing of binary inputs
 
 ### Stand-alone software
 
