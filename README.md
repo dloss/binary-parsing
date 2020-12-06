@@ -67,6 +67,8 @@ file formats, network protocols or bitstreams.
     runtime execution.
 -   [FlexT](http://hmelnov.icc.ru/FlexT/index.eng.html) - a DSL and a tool for generating parsers in Delphi.
 -   [FormatFuzzer](https://uds-se.github.io/FormatFuzzer/) (C++): framework for high-efficiency, high-quality generation and parsing of binary inputs
+-   [Deku](https://github.com/sharksforarms/deku) (Rust): bit-level, symmetric, serialization/deserialization implementations for structs and enums
+-   [restruct](https://github.com/go-restruct/restruct) (Go): library for reading and writing binary data
 
 ### Stand-alone software
 
