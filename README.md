@@ -61,6 +61,8 @@ file formats, network protocols or bitstreams.
     [DFDL (Data Format Description Language)](https://en.wikipedia.org/wiki/Data_Format_Description_Language)
     capable of describing [many industry and military standards](https://github.com/DFDLSchemas) and
     parsing into a infoset, which is most commonly represented as either XML or JSON, and writing back to native format.
+-   [binarylang](https://github.com/sealmove/binarylang) (Nim, DSL):
+    extensible Nim DSL for creating binary parsers/encoders in a symmetric fashion
 -   [binaryparse](https://github.com/PMunch/binaryparse) (Nim, DSL):
     In-language DSL for reading and writing binary data supporting all sorts of
     patterns. Generates an efficient stream based reader and writer for the
