@@ -113,7 +113,7 @@ file formats, network protocols or bitstreams.
 
 ### Research papers
 
--   [LangSec Platform] Towards a Platform to Compare Binary Parser Generators. 
+-   [LangSec Platform](https://github.com/gangtan/LangSec-papers-and-slides/raw/main/langsec21/papers/Levillain_LangSec21.pdf): Towards a Platform to Compare Binary Parser Generators. 
     Olivier Levillain, Sébastien Naud, Aina Toky Rasoamanana ([Video](https://www.youtube.com/watch?v=DxtTI9HSV6I))
 -   [EverParse](https://www.chajed.io/papers/everparse:usenix-sec2019.pdf): 
     Verified Secure Zero-Copy Parsers for Authenticated Message Formats. Tahina Ramananandro et. al.
