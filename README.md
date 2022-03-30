@@ -56,7 +56,7 @@ file formats, network protocols or bitstreams.
     high level library for C++ designed to create and decode network packets
 -   [scodec](http://scodec.org/) (Scala):
     Combinator library for working with binary data
--   [Daffodil](http://daffodil.apache.org) (Scala/Java, XML Schema):
+-   [Apache Daffodil](http://daffodil.apache.org) (Scala/Java, XML Schema):
     an open-source implementation of
     [DFDL (Data Format Description Language)](https://en.wikipedia.org/wiki/Data_Format_Description_Language)
     capable of describing [many industry and military standards](https://github.com/DFDLSchemas) and
