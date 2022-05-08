@@ -74,6 +74,8 @@ file formats, network protocols or bitstreams.
 -   [Mr. Crowbar](https://github.com/moralrecordings/mrcrowbar) (Python):
     Django-esque model framework for reading and writing binary file formats.
     Includes a suite of command-line tools for visualising and digging through binary data.
+-   [Binary-parser](https://github.com/keichi/binary-parser) (JavaScript) A blazing-fast declarative parser builder for binary data
+-   [jBinary](https://github.com/jDataView/jBinary) (JavaScript) High-level API for working with binary data.
 
 ### Stand-alone software
 
