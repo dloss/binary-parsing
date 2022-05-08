@@ -117,7 +117,10 @@ file formats, network protocols or bitstreams.
 ### Research papers
 
 -   [LangSec Platform](https://github.com/gangtan/LangSec-papers-and-slides/raw/main/langsec21/papers/Levillain_LangSec21.pdf): Towards a Platform to Compare Binary Parser Generators. 
-    Olivier Levillain, Sébastien Naud, Aina Toky Rasoamanana ([Video](https://www.youtube.com/watch?v=DxtTI9HSV6I))
+    Olivier Levillain, Sébastien Naud, Aina Toky Rasoamanana ([Video](https://www.youtube.com/watch?v=DxtTI9HSV6I))    
+-   [Narcissus](http://adam.chlipala.net/papers/NarcissusICFP19/):
+    Correct-By-Construction Derivation of Decoders and Encoders from Binary Formats. 
+    Benjamin Delaware, Sorawit Suriyakarn, Clément Pit-Claudel, Qianchuan Ye, Adam Chlipala
 -   [EverParse](https://www.chajed.io/papers/everparse:usenix-sec2019.pdf): 
     Verified Secure Zero-Copy Parsers for Authenticated Message Formats. Tahina Ramananandro et. al.
 -   [Nail](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-bangert.pdf):
