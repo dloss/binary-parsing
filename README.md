@@ -35,8 +35,8 @@ file formats, network protocols or bitstreams.
     and apply security policies on (live) captured traffic
 -   [BinData](https://github.com/dmendel/bindata) (Ruby):
     provides a declarative way to read and write structured binary data
--   [Binary-parser](https://github.com/keichi/binary-parser) (Node):
-    binary parser builder library for node, which enables you to write
+-   [Binary-parser](https://github.com/keichi/binary-parser) (JavaScript):
+    binary parser builder library which enables you to write
     efficient parsers in a simple & declarative way
 -   [Gloss](https://github.com/ztellman/gloss) (Clojure):
     turn complicated byte formats into Clojure data structures and
@@ -74,7 +74,6 @@ file formats, network protocols or bitstreams.
 -   [Mr. Crowbar](https://github.com/moralrecordings/mrcrowbar) (Python):
     Django-esque model framework for reading and writing binary file formats.
     Includes a suite of command-line tools for visualising and digging through binary data.
--   [Binary-parser](https://github.com/keichi/binary-parser) (JavaScript) A blazing-fast declarative parser builder for binary data
 -   [jBinary](https://github.com/jDataView/jBinary) (JavaScript) High-level API for working with binary data.
 
 ### Stand-alone software
