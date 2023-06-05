@@ -192,7 +192,7 @@ This is obviously rather subjective and definitely not supposed to be a complete
     [file format identification](http://forensicswiki.org/wiki/File_Format_Identification),
     [dshell](https://github.com/USArmyResearchLab/Dshell)
 -   Firmware analysis and file carving:
-    [Binwalk](https://github.com/ReFirmLabs/binwalk), [Unblob](https://unblob.org), [QuickBMS](http://aluigi.altervista.org/quickbms.htm)
+    [Binwalk](https://github.com/ReFirmLabs/binwalk), [Unblob](https://unblob.org), [QuickBMS](http://aluigi.altervista.org/quickbms.htm), [OFRAK](https://github.com/redballoonsecurity/ofrak)
 -   Deep Packet Inspection
 -   [Packet Crafting](https://en.wikipedia.org/wiki/Packet_crafting):
     hping2/3, tcpreplay, netdude, bittwist, netsniff-ng, Trafgen, ...
