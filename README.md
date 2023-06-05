@@ -75,6 +75,8 @@ file formats, network protocols or bitstreams.
     Django-esque model framework for reading and writing binary file formats.
     Includes a suite of command-line tools for visualising and digging through binary data.
 -   [jBinary](https://github.com/jDataView/jBinary) (JavaScript) High-level API for working with binary data.
+-   [Wuffs](https://github.com/google/wuffs): a memory-safe programming language (and a standard library written in that language) for Wrangling Untrusted File Formats Safely. 
+    Wrangling includes parsing, decoding and encoding.
 
 ### Stand-alone software
 
