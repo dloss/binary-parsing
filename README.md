@@ -127,7 +127,10 @@ file formats, network protocols or bitstreams.
     Verified Secure Zero-Copy Parsers for Authenticated Message Formats. Tahina Ramananandro et. al.
 -   [Nail](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-bangert.pdf):
     A Practical Tool for Parsing and Generating Data Formats.
-    Julian Bangert and Nickolai Zeldovich,
+    Julian Bangert and Nickolai Zeldovich
+-   [Generic packet descriptions](https://www.semanticscholar.org/paper/Generic-packet-descriptions%3A-verified-parsing-and-Geest-Swierstra/d6d742a37d184fd2eb8baa359bc054338cef5b8f):
+    Verified parsing and pretty printing of low-level data. 
+    Marcell van Geest, Wouter Swierstra
 -   [GAPA](https://www.microsoft.com/en-us/research/publication/generic-application-level-protocol-analyzer-and-its-language/): Generic Application-Level Protocol Analyzer and its Language.
     Nikita Borisov, David J. Brumley, Helen J. Wang, Chuanxiong Guo
 -   [PADS/ML](http://dl.acm.org/citation.cfm?id=1190231): a functional data description language.
