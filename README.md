@@ -106,7 +106,7 @@ file formats, network protocols or bitstreams.
     plugin providing a simple interface for writing Wireshark dissectors in Python
 -   [Sharktools](https://github.com/armenb/sharktools) (Python, Matlab):
     Tools for programmatic parsing of packet captures using Wireshark functionality
-
+    
 ##### Other Stand-alone Software
 
 -   [GNU poke](https://jemarch.net/poke): The extensible editor for structured binary data
@@ -191,6 +191,8 @@ This is obviously rather subjective and definitely not supposed to be a complete
 -   Digital Forensics, Network Forensics:
     [file format identification](http://forensicswiki.org/wiki/File_Format_Identification),
     [dshell](https://github.com/USArmyResearchLab/Dshell)
+-   Firmware analysis and file carving:
+    [Binwalk](https://github.com/ReFirmLabs/binwalk), [Unblob](https://unblob.org), [QuickBMS](http://aluigi.altervista.org/quickbms.htm)
 -   Deep Packet Inspection
 -   [Packet Crafting](https://en.wikipedia.org/wiki/Packet_crafting):
     hping2/3, tcpreplay, netdude, bittwist, netsniff-ng, Trafgen, ...
