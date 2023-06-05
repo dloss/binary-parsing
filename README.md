@@ -85,7 +85,7 @@ file formats, network protocols or bitstreams.
 -   [010 Editor](http://www.sweetscape.com/010editor/)
 -   [Kiewtai](https://github.com/taviso/kiewtai): plugin for the Hiew hex editor that makes the Kaitai parsers available
 -   [Hobbits](https://github.com/Mahlet-Inc/hobbits): multi-platform GUI for bit-based analysis, processing, and visualization. Has a Kaitai plugin.
--   [ImHex](https://github.com/WerWolv/ImHex): A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.
+-   [ImHex](https://imhex.werwolv.net): A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.
 
 ##### Wireshark
 
