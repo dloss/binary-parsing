@@ -77,6 +77,7 @@ file formats, network protocols or bitstreams.
 -   [jBinary](https://github.com/jDataView/jBinary) (JavaScript) High-level API for working with binary data.
 -   [Wuffs](https://github.com/google/wuffs): a memory-safe programming language (and a standard library written in that language) for Wrangling Untrusted File Formats Safely. 
     Wrangling includes parsing, decoding and encoding.
+-   [EverParse](https://project-everest.github.io/everparse/): a framework for generating verified secure parsers and formatters from domain-specific format specification languages
 
 ### Stand-alone software
 
