@@ -85,6 +85,7 @@ file formats, network protocols or bitstreams.
 -   [010 Editor](http://www.sweetscape.com/010editor/)
 -   [Kiewtai](https://github.com/taviso/kiewtai): plugin for the Hiew hex editor that makes the Kaitai parsers available
 -   [Hobbits](https://github.com/Mahlet-Inc/hobbits): multi-platform GUI for bit-based analysis, processing, and visualization. Has a Kaitai plugin.
+-   [ImHex](https://github.com/WerWolv/ImHex): A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.
 
 ##### Wireshark
 
@@ -118,7 +119,7 @@ file formats, network protocols or bitstreams.
 ### Research papers
 
 -   [LangSec Platform](https://github.com/gangtan/LangSec-papers-and-slides/raw/main/langsec21/papers/Levillain_LangSec21.pdf): Towards a Platform to Compare Binary Parser Generators. 
-    Olivier Levillain, Sébastien Naud, Aina Toky Rasoamanana ([Video](https://www.youtube.com/watch?v=DxtTI9HSV6I))    
+    Olivier Levillain, Sébastien Naud, Aina Toky Rasoamanana ([Video](https://www.youtube.com/watch?v=DxtTI9HSV6I))
 -   [Narcissus](http://adam.chlipala.net/papers/NarcissusICFP19/):
     Correct-By-Construction Derivation of Decoders and Encoders from Binary Formats. 
     Benjamin Delaware, Sorawit Suriyakarn, Clément Pit-Claudel, Qianchuan Ye, Adam Chlipala
