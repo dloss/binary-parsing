@@ -110,7 +110,7 @@ file formats, network protocols or bitstreams.
 ##### Other Stand-alone Software
 
 -   [GNU poke](https://jemarch.net/poke): The extensible editor for structured binary data
--   [Netzob](http://www.netzob.org): open source tool for reverse engineering,
+-   [Netzob](https://github.com/netzob/netzob): open source tool for reverse engineering,
     traffic generation and fuzzing of communication protocols
 -   [Cat Karat Packet Builder](http://packetbuilder.net):
     packet generation tool that allows to build custom packets for firewall or target testing
