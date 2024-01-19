@@ -21,6 +21,7 @@ file formats, network protocols or bitstreams.
 -   [Hachoir](http://hachoir.readthedocs.io) (Python): view and
     edit a binary stream field by field.
     Long [list of parsers](http://hachoir3.readthedocs.io/parser_list.html) for all kinds of formats
+-   [Caterpillar](https://github.com/MatrixEditor/caterpillar): Python 3.12+ library to pack and unpack structurized binary data
 -   [RecordFlux](https://github.com/Componolit/RecordFlux): toolset for the formal specification of messages and the generation of verifiable binary parsers and message generators (Ada-inspired).
 -   [DataScript Tools](http://dstools.sourceforge.net) (DSL):
     DataScript is a formal language for modelling binary datatypes,
