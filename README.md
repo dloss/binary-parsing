@@ -91,6 +91,7 @@ file formats, network protocols or bitstreams.
 -   [Kiewtai](https://github.com/taviso/kiewtai): plugin for the Hiew hex editor that makes the Kaitai parsers available
 -   [Hobbits](https://github.com/Mahlet-Inc/hobbits): multi-platform GUI for bit-based analysis, processing, and visualization. Has a Kaitai plugin.
 -   [ImHex](https://imhex.werwolv.net): A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.
+-   [fq](https://github.com/wader/fq): jq for binary formats - tool, language and decoders for working with binary and text formats.
 
 ##### Wireshark
 
