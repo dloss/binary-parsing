@@ -80,7 +80,7 @@ file formats, network protocols or bitstreams.
     Wrangling includes parsing, decoding and encoding.
 -   [EverParse](https://project-everest.github.io/everparse/): a framework for generating verified secure parsers and formatters from domain-specific format specification languages
 -   [binrw](https://binrw.rs) (Rust): binrw helps you write maintainable & easy-to-read declarative binary data readers and writers using ✨macro magic✨.
--   [Dogma](https://dogma-lang.org) human-friendly metalanguage for describing data formats in documentation using the familiar patterns of Backus-Naur Form.
+-   [Dogma](https://dogma-lang.org) (DSL): human-friendly metalanguage for describing data formats in documentation using the familiar patterns of Backus-Naur Form.
 
 ### Stand-alone software
 
