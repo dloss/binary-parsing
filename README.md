@@ -128,6 +128,7 @@ file formats, network protocols or bitstreams.
 
 -   [LangSec Platform](https://github.com/gangtan/LangSec-papers-and-slides/raw/main/langsec21/papers/Levillain_LangSec21.pdf): Towards a Platform to Compare Binary Parser Generators. 
     Olivier Levillain, Sébastien Naud, Aina Toky Rasoamanana ([Video](https://www.youtube.com/watch?v=DxtTI9HSV6I))
+-   [Interval Parsing Grammars for File Format Parsing](https://arxiv.org/abs/2304.04859) Jialun Zhang, Greg Morrisett, Gang Tan
 -   [Narcissus](http://adam.chlipala.net/papers/NarcissusICFP19/):
     Correct-By-Construction Derivation of Decoders and Encoders from Binary Formats. 
     Benjamin Delaware, Sorawit Suriyakarn, Clément Pit-Claudel, Qianchuan Ye, Adam Chlipala
