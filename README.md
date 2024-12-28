@@ -102,10 +102,6 @@ A curated collection of tools and resources for parsing and analyzing binary dat
 ## Standalone Applications
 
 ### Hex Editors with Grammars
-- [Synalyze It!](https://www.synalysis.net) (macOS) / [Hexinator](https://hexinator.com) (Windows) - Professional hex editors with grammar-based binary format parsing
-- [010 Editor](http://www.sweetscape.com/010editor/) - Industry standard hex editor with C-style binary templates and large template library
-
-### Hex Editors with Grammars
 -   [Synalyze It!](https://www.synalysis.net) (macOS): hex editor with grammar-based binary format parsing
 -   [Hexinator](https://hexinator.com) (Windows): hex editor with grammar-based binary format parsing
 -   [010 Editor](http://www.sweetscape.com/010editor/) (Windows/macOS/Linux): hex editor with C-style binary templates and large template library
