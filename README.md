@@ -137,6 +137,8 @@ A curated collection of tools and resources for parsing and analyzing binary dat
     traffic generation and fuzzing of communication protocols
 -   [Cat Karat Packet Builder](http://packetbuilder.net):
     packet generation tool that allows to build custom packets for firewall or target testing
+-   [Scapy](http://secdev.org/projects/scapy): send, sniff and dissect
+    and forge network packets.
 
 ## Research papers
 
