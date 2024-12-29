@@ -109,7 +109,7 @@ A curated collection of tools and resources for parsing and analyzing binary dat
 -   [Hobbits](https://github.com/Mahlet-Inc/hobbits): multi-platform GUI for bit-based analysis, processing, and visualization. Has a Kaitai plugin.
 -   [ImHex](https://imhex.werwolv.net) (Windows/macOS/Linux): A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.
 
-##### Binary Analysis Tools
+### Binary Analysis Tools
 -   [GNU poke](https://jemarch.net/poke): The extensible editor for structured binary data
 -   [fq](https://github.com/wader/fq): jq for binary formats - tool, language and decoders for working with binary and text formats
 -   [radare2](https://github.com/radare/radare2) (C, with bindings/pipe for almost all languages):
