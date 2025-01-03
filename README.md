@@ -141,8 +141,6 @@ A curated collection of tools and resources for parsing and analyzing binary dat
     and forge network packets.
 
 ## Research papers
-
-### Recent developments (2019+)
 -   [Interval Parsing Grammars for File Format Parsing](https://arxiv.org/abs/2304.04859) (2023): Jialun Zhang, Greg Morrisett, Gang Tan
 -   [LangSec Platform](https://github.com/gangtan/LangSec-papers-and-slides/raw/main/langsec21/papers/Levillain_LangSec21.pdf) (2021): Towards a Platform to Compare Binary Parser Generators. 
     Olivier Levillain, Sébastien Naud, Aina Toky Rasoamanana ([Video](https://www.youtube.com/watch?v=DxtTI9HSV6I))
@@ -151,8 +149,6 @@ A curated collection of tools and resources for parsing and analyzing binary dat
     Benjamin Delaware, Sorawit Suriyakarn, Clément Pit-Claudel, Qianchuan Ye, Adam Chlipala
 -   [EverParse](https://www.chajed.io/papers/everparse:usenix-sec2019.pdf) (2019): 
     Verified Secure Zero-Copy Parsers for Authenticated Message Formats. Tahina Ramananandro et. al.
-
-### Historical Papers
 -   [Generic packet descriptions](https://www.semanticscholar.org/paper/Generic-packet-descriptions%3A-verified-parsing-and-Geest-Swierstra/d6d742a37d184fd2eb8baa359bc054338cef5b8f) (2017):
     Verified parsing and pretty printing of low-level data. 
     Marcell van Geest, Wouter Swierstra
