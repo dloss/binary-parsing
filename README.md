@@ -56,7 +56,7 @@ A curated collection of tools and resources for parsing and analyzing binary dat
 -   [binrw](https://binrw.rs): binrw helps you write maintainable & easy-to-read declarative binary data readers and writers using ✨macro magic✨.
 
 ### Ruby
--   [BinData](https://github.com/dmendel/bindata) (Ruby):
+-   [BinData](https://github.com/dmendel/bindata):
     provides a declarative way to read and write structured binary data
 
 ### Other Programming Languages
