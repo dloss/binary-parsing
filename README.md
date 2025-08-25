@@ -13,7 +13,7 @@ A curated collection of tools and resources for parsing and analyzing binary dat
     edit a binary stream field by field.
     Long [list of parsers](http://hachoir3.readthedocs.io/parser_list.html) for all kinds of formats
 -   [Caterpillar](https://github.com/MatrixEditor/caterpillar): Python 3.12+ library to pack and unpack structurized binary data
--   [Scapy](http://secdev.org/projects/scapy): send, sniff and dissect
+-   [Scapy](https://scapy.net/): send, sniff and dissect
     and forge network packets. Usable interactively or as a library
 -   [Mr. Crowbar](https://github.com/moralrecordings/mrcrowbar):
     Django-esque model framework for reading and writing binary file formats.
