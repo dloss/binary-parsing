@@ -24,6 +24,7 @@ A curated collection of tools and resources for parsing and analyzing binary dat
     binary parser builder library which enables you to write
     efficient parsers in a simple & declarative way
 -   [jBinary](https://github.com/jDataView/jBinary): High-level API for working with binary data.
+-   [Binpat](https://github.com/weizhenye/binpat): Parse binary data using declarative patterns.
 
 ### C/C++
 -   [Hammer](https://github.com/abiggerhammer/hammer) (C):
