@@ -19,6 +19,8 @@ A curated collection of tools and resources for parsing and analyzing binary dat
     Django-esque model framework for reading and writing binary file formats.
     Includes a suite of command-line tools for visualising and digging through binary data
 -   [dissect.cstruct](https://github.com/fox-it/dissect.cstruct): structure parsing in Python made easy. Write C-like structure definitions and use them to parse binary data
+-   [dpkt](https://github.com/kbandla/dpkt):
+    fast, simple packet creation and parsing for the basic TCP/IP protocols. Pure Python, reads pcap/pcapng files
 
 ### JavaScript
 -   [Binary-parser](https://github.com/keichi/binary-parser):
@@ -26,6 +28,7 @@ A curated collection of tools and resources for parsing and analyzing binary dat
     efficient parsers in a simple & declarative way
 -   [jBinary](https://github.com/jDataView/jBinary): High-level API for working with binary data.
 -   [Binpat](https://github.com/weizhenye/binpat): Parse binary data using declarative patterns.
+-   [restructure](https://github.com/foliojs/restructure): declarative binary data encoding and decoding with support for C-like structures, pointers, arrays, bitfields and custom types. Used by fontkit and pdfkit
 
 ### C/C++
 -   [Hammer](https://github.com/abiggerhammer/hammer) (C):
@@ -52,16 +55,22 @@ A curated collection of tools and resources for parsing and analyzing binary dat
 ### Go
 -   [restruct](https://github.com/go-restruct/restruct): library for reading and writing binary data
 -   [struc](https://github.com/lunixbochs/struc): better binary packing for Go; pack and unpack C-style structs from byte slices
+-   [gopacket](https://github.com/gopacket/gopacket): packet processing library providing layered protocol decoding, pcap/pfring/afpacket bindings. Originally by Google
 
 ### Rust
 -   [Nom](https://github.com/Geal/nom): Rust parser combinator framework
 -   [Deku](https://github.com/sharksforarms/deku): bit-level, symmetric, serialization/deserialization implementations for structs and enums
 -   [binrw](https://binrw.rs): binrw helps you write maintainable & easy-to-read declarative binary data readers and writers using ✨macro magic✨.
 -   [scroll](https://github.com/m4b/scroll): read and write structured data from byte buffers with Pread/Pwrite traits, endian-aware and derive-friendly
+-   [winnow](https://github.com/winnow-rs/winnow): parser combinator library forked from nom with improved error messages, better developer experience and active maintenance
 
 ### Ruby
 -   [BinData](https://github.com/dmendel/bindata):
     provides a declarative way to read and write structured binary data
+
+### Swift
+-   [swift-binary-parsing](https://github.com/apple/swift-binary-parsing) (Swift):
+    Apple's official library for building safe, efficient binary parsers with `ParserSpan` and `ParserRange` types
 
 ### Other Programming Languages
 -   [FlexT](http://hmelnov.icc.ru/FlexT/index.eng.html) (Delphi): a DSL and a tool for generating parsers in Delphi
@@ -102,6 +111,10 @@ A curated collection of tools and resources for parsing and analyzing binary dat
     [PDF](http://people.cs.vt.edu/~gback/papers/gback-datascript-gpce2002.pdf)
 -   [Dogma](https://dogma-lang.org) (DSL): human-friendly metalanguage for describing data formats in documentation using the familiar patterns of Backus-Naur Form.
 -   [EverParse](https://project-everest.github.io/everparse/): a framework for generating verified secure parsers and formatters from domain-specific format specification languages
+-   [ASN.1](https://www.itu.int/en/ITU-T/asn1/Pages/introduction.aspx) (ITU-T/ISO standard):
+    Abstract Syntax Notation One, one of the oldest standards for describing binary data structures with multiple encoding rules (BER, DER, PER, OER).
+    Widely used in telecom, cryptography (X.509), and network protocols (SNMP, LDAP).
+    Tools: [asn1c](https://github.com/vlm/asn1c) (C compiler), [asn1tools](https://github.com/eerimoq/asn1tools) (Python)
 
 ## Standalone Applications
 
@@ -112,6 +125,10 @@ A curated collection of tools and resources for parsing and analyzing binary dat
 -   [Kiewtai](https://github.com/taviso/kiewtai): plugin for the Hiew hex editor that makes the Kaitai parsers available
 -   [Hobbits](https://github.com/Mahlet-Inc/hobbits): multi-platform GUI for bit-based analysis, processing, and visualization. Has a Kaitai plugin.
 -   [ImHex](https://imhex.werwolv.net) (Windows/macOS/Linux): A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.
+-   [Hex Fiend](https://hexfiend.com) (macOS): fast, open-source hex editor with Tcl-based binary template support for file format parsing
+-   [Okteta](https://apps.kde.org/okteta/) (Linux/KDE): hex editor with a Structures tool for analyzing binary data using user-creatable XML or JavaScript structure definitions
+-   [REHex](https://github.com/solemnwarning/rehex) (Windows/macOS/Linux): cross-platform hex editor for reverse engineering with binary templates, annotations, inline disassembly and entropy visualization
+-   [Hex Editor Neo](https://freehexeditorneo.com) (Windows): hex editor with Structure Viewer, binary templates and Kaitai Struct definition support
 
 ### Binary Analysis Tools
 -   [GNU poke](https://jemarch.net/poke): The extensible editor for structured binary data
@@ -121,6 +138,7 @@ A curated collection of tools and resources for parsing and analyzing binary dat
     See [Parsing a fileformat with radare2](http://radare.today/posts/parsing-a-fileformat-with-radare2/)
     and [Types](http://radare.today/posts/types/).
 -   [Veles](https://codisec.com/veles/): open source tool for binary analysis
+-   [PolyFile](https://github.com/trailofbits/polyfile): identifies and maps the semantic structure of files, including polyglots. Pure-Python reimplementation of libmagic with Kaitai Struct integration and interactive hex viewer
 
 ### Network Protocol Analysis
 -   [Wireshark](https://www.wireshark.org): network protocol analyzer
