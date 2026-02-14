@@ -18,6 +18,7 @@ A curated collection of tools and resources for parsing and analyzing binary dat
 -   [Mr. Crowbar](https://github.com/moralrecordings/mrcrowbar):
     Django-esque model framework for reading and writing binary file formats.
     Includes a suite of command-line tools for visualising and digging through binary data
+-   [dissect.cstruct](https://github.com/fox-it/dissect.cstruct): structure parsing in Python made easy. Write C-like structure definitions and use them to parse binary data
 
 ### JavaScript
 -   [Binary-parser](https://github.com/keichi/binary-parser):
@@ -50,11 +51,13 @@ A curated collection of tools and resources for parsing and analyzing binary dat
 
 ### Go
 -   [restruct](https://github.com/go-restruct/restruct): library for reading and writing binary data
+-   [struc](https://github.com/lunixbochs/struc): better binary packing for Go; pack and unpack C-style structs from byte slices
 
 ### Rust
 -   [Nom](https://github.com/Geal/nom): Rust parser combinator framework
 -   [Deku](https://github.com/sharksforarms/deku): bit-level, symmetric, serialization/deserialization implementations for structs and enums
 -   [binrw](https://binrw.rs): binrw helps you write maintainable & easy-to-read declarative binary data readers and writers using ✨macro magic✨.
+-   [scroll](https://github.com/m4b/scroll): read and write structured data from byte buffers with Pread/Pwrite traits, endian-aware and derive-friendly
 
 ### Ruby
 -   [BinData](https://github.com/dmendel/bindata):
