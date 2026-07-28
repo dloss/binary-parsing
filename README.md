@@ -63,6 +63,7 @@ A curated collection of tools and resources for parsing and analyzing binary dat
 -   [binrw](https://binrw.rs): binrw helps you write maintainable & easy-to-read declarative binary data readers and writers using ✨macro magic✨.
 -   [scroll](https://github.com/m4b/scroll): read and write structured data from byte buffers with Pread/Pwrite traits, endian-aware and derive-friendly
 -   [winnow](https://github.com/winnow-rs/winnow): parser combinator library forked from nom with improved error messages, better developer experience and active maintenance
+-   [antlr-rust-runtime](https://github.com/ophi-dev/antlr-rust-runtime): ANTLR v4 runtime and parser generator with a byte-oriented input stream, so grammars from [antlr/grammars-v4](https://github.com/antlr/grammars-v4) (e.g. bencoding) generate Rust parsers for binary formats. Length-prefixed framing is handled by typed hooks; generation is pure Rust, no JVM
 
 ### Ruby
 -   [BinData](https://github.com/dmendel/bindata):
