@@ -96,6 +96,8 @@ A curated collection of tools and resources for parsing and analyzing binary dat
     OCaml-based parsing engine.
     [Paper](http://spw14.langsec.org/papers/pasifal-report.pdf):
     A pragmatic solution to the binary parsing problem. Olivier Levillain
+-   [Bindat](https://www.gnu.org/software/emacs/manual/html_node/elisp/Byte-Packing.html) (Emacs Lisp, builtin):
+    Pack and unpack arrays of bytes, usually for binary network protocols. Unpacking and packing is controlled via a data layout specification, also called Bindat type expression.
 
 ## Language-Agnostic Tools
 
